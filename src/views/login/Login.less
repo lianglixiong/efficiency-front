@@ -1,0 +1,90 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    .login-top {
+        width: 100%;
+        height: 75%;
+        position: relative;
+        background: url(../../assets/login/login-bg_01.png) no-repeat;
+        background-size: 100% 100%;
+        .logo{
+            position: absolute;
+            top: 10vh;
+            left: 18vw;
+            width: 7%;
+            height:auto;
+        }
+        .plane{
+            position: absolute;
+            top: 25vh;
+            left: 22vw;
+            width: 10%;
+        }
+        .ball{
+            position: absolute;
+            top: 27vh;
+            right: 20vw;
+            width: 2.5%;
+        }
+        .login-content {
+            height: 100%;
+            .g-left {
+                img {
+                    max-width: 100%;
+                    width: 50vh;
+                    position: absolute;
+                    bottom: -3vh;
+                    left: 6vw;
+                }
+            }
+            .g-right {
+                .title {
+                    margin: 1vh auto 1.5vh;
+                    text-align: center;
+                    color: #247bcd;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+                #validateImg {
+                    width: 22%;
+                    vertical-align: middle;
+                    margin-left: 3%;
+                    border: 1px solid #b1b1b1;
+                }
+                .loginform {
+                    position: absolute;
+                    left: 55vw;
+                    bottom: -3vh;
+                    padding: 0.5vh 3vh 0 3vh;
+                    background-color: #F9FAFC;
+                    box-shadow: 0px 0px 1vw #5eb1fb;
+                    border-radius: 5px;
+                    .iconfont {
+                        color: #5EB1FB;
+                        font-size: 18px;
+                    }
+                }
+                .load{
+                    display: inline-block;
+                    width: 4vw;
+                    border: 1px solid #bfcbd9;
+                    height: 4vh;
+                    line-height: 4vh;
+                    color:#97a8be;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+    .login-footer {
+        width: 100%;
+        height: 25%;
+        background-color: #5eb1fb;
+        text-align: center;
+        p {
+            padding-top: 20vh;
+            color: #247bcd;
+        }
+    }
+}
